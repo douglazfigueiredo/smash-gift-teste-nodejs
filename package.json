@@ -1,0 +1,21 @@
+{
+  "name": "teste-vaga-smash-gift",
+  "version": "1.0.0",
+  "description": "Projeto Node.js para importar dados de um CSV para o Firestore",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Douglas Figueiredo",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "firebase-admin": "^12.1.0",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
